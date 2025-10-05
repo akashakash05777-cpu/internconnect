@@ -1,0 +1,41 @@
+﻿# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+.next-static/
+.next-cache/
+
+# Turbopack
+.turbo/
+
+# Build outputs
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env
+.env
+.env.*
+!.env.example
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Misc
+.vercel/
+coverage/
+*.local
+
+# MSW generated worker (kept in repo if needed)
+# public/mockServiceWorker.js

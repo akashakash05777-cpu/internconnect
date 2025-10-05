@@ -68,17 +68,15 @@ Try the platform with these demo accounts:
 internconnect/
 ├── index.html                 # GitHub Pages login page
 ├── GITHUB_PAGES_SETUP.md     # Setup instructions
-├── Interconnect/             # Next.js application
-│   ├── src/
-│   │   ├── app/             # App router pages
-│   │   ├── components/      # Reusable components
-│   │   ├── contexts/        # React contexts
-│   │   ├── lib/            # Utilities and mock data
-│   │   ├── mocks/          # MSW mock handlers
-│   │   └── types/          # TypeScript definitions
-│   ├── public/             # Static assets
-│   └── package.json        # Dependencies
-└── README.md              # This file
+├── src/                      # Next.js application source
+│   ├── app/                 # App router pages
+│   ├── components/          # Reusable components
+│   ├── contexts/            # React contexts
+│   ├── lib/                # Utilities and mock data
+│   ├── mocks/              # MSW mock handlers
+│   └── types/              # TypeScript definitions
+├── public/                  # Static assets
+└── README.md               # This file
 ```
 
 ## 🚀 Getting Started
@@ -90,10 +88,9 @@ internconnect/
 
 ### For Local Development
 1. Clone the repository
-2. Navigate to the `Interconnect` directory
-3. Install dependencies: `npm install`
-4. Start development server: `npm run dev`
-5. Open [http://localhost:3000](http://localhost:3000)
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Open [http://localhost:3000](http://localhost:3000)
 
 ## 📱 Features Showcase
 
